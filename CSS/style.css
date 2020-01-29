@@ -1,0 +1,118 @@
+html {
+  block-size: border-box;
+}
+body {
+  margin: 0;
+  all: unset;
+}
+* {
+  box-sizing: inherit;
+}
+.masthead {
+  background-color: aqua;
+}
+.conteiner {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding-left: 80px; */
+  /* spadding-right: 80px; */
+}
+
+.site-nav {
+  padding-top: 100px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+.list {
+  padding-right: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.sait-nav__link {
+  display: block;
+  text-transform: uppercase;
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  color: rgb(98, 98, 98);
+  cursor: pointer;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+}
+
+.sait-nav__link:hover,
+.sait-nav__link:focus {
+  color: rgb(3, 169, 244);
+}
+.section {
+  padding-bottom: 120px;
+  padding-top: 120px;
+  background-color: aqua;
+}
+.post {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.post__item {
+  flex-basis: 420px;
+  flex-grow: 0;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+.post__item:nth-child(2n) {
+  margin-right: 0;
+}
+
+.post__item:nth-last-child(-n + 2) {
+  margin-bottom: 0;
+}
+.post__image {
+  width: 420px;
+}
+.post__link {
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: rgb(180, 173, 158);
+}
+.post__name {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  color: rgb(98, 98, 98);
+}
+.post__descr {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  color: rgb(98, 98, 98);
+}
+.post__button {
+  display: flex;
+  min-width: 200px;
+  min-height: 50px;
+  background-color: yellow;
+  justify-content: center;
+  align-items: center;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  color: rgb(98, 98, 98);
+  text-decoration: none;
+  border: 0;
+  border-radius: 6px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
