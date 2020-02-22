@@ -6,22 +6,24 @@ body {
   margin: 0;
   padding: 0;
 }
-.conteiner {
-  position: relative;
+.container {
   width: 901px;
   margin-left: auto;
   margin-right: auto;
 }
 
+.mainhead {
+  padding-top: 80px;
+  padding-bottom: 105px;
+}
 .site-nav .list {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 165px;
-  margin-right: 165px;
   margin-bottom: 30px;
 }
 .site-nav .nav-link {
+  display: block;
   padding: 0px 24px;
   text-decoration: none;
 
@@ -59,11 +61,12 @@ body {
 .post-image {
   position: relative;
   width: 421px;
-  margin-top: 80px;
+
   margin-bottom: 35px;
 }
 .post-link {
   margin: 0;
+  margin-bottom: 43px;
   font-family: "Ubuntu", sans-serif;
   text-transform: uppercase;
   font-size: 14px;
@@ -74,7 +77,7 @@ body {
   font-family: "Playfair Display", serif;
   font-size: 30px;
   line-height: auto;
-  margin-top: 43px;
+
   margin-bottom: 45px;
   color: rgb(98, 98, 98);
 }
@@ -84,7 +87,7 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: rgb(98, 98, 98);
-  padding-bottom: 60px;
+  /* padding-bottom: 60px; */
 }
 
 .button {
@@ -95,5 +98,10 @@ body {
   transform: translate(-50%);
   font-family: "Playfair Display", serif;
   font-size: 20px;
+  margin-top: 58px;
   color: rgb(98, 98, 98);
+}
+
+.button:hover {
+  color: rgb(3, 169, 244);
 }
